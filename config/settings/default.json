@@ -1,0 +1,366 @@
+{
+  "AccountSpoof": {
+    "Enabled": true,
+    "Random": true
+  },
+  "AntiCheat": {
+    "Enabled": true,
+    "Actions": 10,
+    "MiningRange": 5.25,
+    "Movement": "Grim",
+    "StrictDirection": "Combined",
+    "MiningStrictDirection": "Combined",
+    "CrystalStrictDirection": "Combined",
+    "MiningRotations": true,
+    "BlockRotations": true,
+    "CrystalRotations": true,
+    "AttackRotations": true,
+    "MaxBuildHeight": 120,
+    "InventoryDelay": 75,
+    "Updates": 1,
+    "LagBackThreshold": 3.0,
+    "CC": false,
+    "CloseInventory": false,
+    "Opposite": true,
+    "Optimization": "None"
+  },
+  "AntiFacePlace": {
+    "Enabled": false,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "PacketRotations": false,
+    "Helping": 0,
+    "Disable": true,
+    "Swap": -1,
+    "Auto": false
+  },
+  "AntiRubberBand": {
+    "Enabled": true,
+    "Time": 250,
+    "Random": true,
+    "Modifier": false
+  },
+  "AntiWeakness": {
+    "Enabled": true,
+    "Mode": "Switch"
+  },
+  "AutoConnect": {
+    "Enabled": true,
+    "Reconnect": "Auto",
+    "Delay": 5,
+    "Connect": true,
+    "IP": "crystalpvp.cc",
+    "Port": 25565
+  },
+  "AutoCrystal": {
+    "Enabled": true,
+    "MinDamage": 6.0,
+    "PlaceDelay": 36,
+    "BreakDelay": 25,
+    "MultiThreading": true,
+    "ReplaceTime": 38,
+    "ReCalcTime": 0,
+    "MaxDeathTime": 40,
+    "Balance": 2.0,
+    "MinFactor": 1.0,
+    "Terrain": false,
+    "Obsidian": 1,
+    "MinObsidianDamage": 10.0,
+    "Faceplace": 10.0,
+    "Armor": 7.5,
+    "FacePlaceWhenUnsafe": false,
+    "FastWhenUnsafe": false,
+    "PlacePrediction": 1,
+    "BreakPrediction": 0,
+    "PacketRotations": "None",
+    "GameLoop": false,
+    "GameLoopDelay": 25,
+    "Poll-BreakDelay": 74,
+    "NoGlitchBlocks": false
+  },
+  "AutoEat": {
+    "Enabled": true,
+    "Ticks": 2
+  },
+  "AutoEchest": {
+    "Enabled": false,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "Block": "Full"
+  },
+  "AutoKit": {
+    "Enabled": true,
+    "Kit": "3arthqu4ke",
+    "Kill": false
+  },
+  "AutoMine": {
+    "Enabled": true
+  },
+  "AutoRespawn": {
+    "Enabled": true
+  },
+  "AutoTotem": {
+    "Enabled": true,
+    "Mode": "None",
+    "InvincibilityFrames": false,
+    "Sword-Gap": true
+  },
+  "AutoTrap": {
+    "Enabled": true,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "PacketRotations": "Surrounded",
+    "Helping": 5
+  },
+  "Blink": {
+    "Enabled": false,
+    "Auto": 17
+  },
+  "Blocker": {
+    "Enabled": true,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "Ticks": 4
+  },
+  "Bomber": {
+    "Enabled": true,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "PacketRotations": false,
+    "PrePlace": 250,
+    "BreakWhenPlaced": false
+  },
+  "Criticals": {
+    "Enabled": true,
+    "Mode": "Many"
+  },
+  "Debug": {
+    "Enabled": false,
+    "Break": true,
+    "Prediction": true,
+    "ClosestCrystalDamage": false,
+    "F5Rotations": true,
+    "FixPosition": true
+  },
+  "FakePlayer": {
+    "Enabled": false,
+    "Pathfinder": false,
+    "Record": false,
+    "Play": true
+  },
+  "FastFall": {
+    "Enabled": true,
+    "Speed": 10.0
+  },
+  "Fullbright": {
+    "Enabled": true
+  },
+  "HoleFiller": {
+    "Enabled": false,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "Distance": 2.0,
+    "Prediction": 2
+  },
+  "Holes": {
+    "Enabled": true,
+    "Async": true,
+    "MaxHeight": 60,
+    "MinHeight": 0,
+    "Render": true,
+    "Range": 10.0,
+    "Holes": 20
+  },
+  "KillAura": {
+    "Enabled": true,
+    "Teleport": true,
+    "Weapon": true,
+    "Players": true,
+    "Entities": true,
+    "Others": false
+  },
+  "Logger": {
+    "Enabled": false,
+    "Incoming": true,
+    "Outgoing": true,
+    "Info": true,
+    "Chat": true,
+    "StackTrace": false,
+    "Buffer": false,
+    "LineCap": 1000,
+    "Total": true,
+    "Filter": "Include",
+    "Packets": {
+      "values": [
+        "ServerboundInteractPacket"
+      ],
+      "action": "ADD",
+      "value": "ServerboundInteractPacket"
+    }
+  },
+  "NoInterp": {
+    "Enabled": true
+  },
+  "NoRender": {
+    "Enabled": true,
+    "Fire": true,
+    "Totems": true,
+    "Blocks": true,
+    "Skylight": true,
+    "Liquids": true,
+    "Hurtcam": true,
+    "Bob": true,
+    "Fov": true,
+    "Explosions": true,
+    "Particles": true
+  },
+  "NoSlowDown": {
+    "Enabled": true,
+    "Offhand": "Use"
+  },
+  "Notifications": {
+    "Enabled": true,
+    "Modules": true,
+    "Totems": true
+  },
+  "Packets": {
+    "Enabled": false,
+    "Fast": true
+  },
+  "Pathfinding": {
+    "Enabled": true,
+    "Async": true,
+    "MaxHeight": 140,
+    "MinHeight": -64,
+    "Render": false,
+    "Render-Algorithm": true,
+    "Debug": false
+  },
+  "Phobot": {
+    "Enabled": true,
+    "BuildHeight": 57,
+    "Parallel-Searches": 6,
+    "Rotate": true,
+    "Duel": false,
+    "Aura": true,
+    "Suicide": true
+  },
+  "Potions": {
+    "Enabled": true,
+    "GoldenApples": true
+  },
+  "Reach": {
+    "Enabled": true
+  },
+  "Repair": {
+    "Enabled": true,
+    "MiddleClick": true,
+    "Packets": 2,
+    "Auto": true,
+    "Rotate": true
+  },
+  "Replenish": {
+    "Enabled": true,
+    "Threshold": 8
+  },
+  "Scaffold": {
+    "Enabled": false,
+    "NoGlitchBlocks": false,
+    "Down": true,
+    "Clutch": 5,
+    "Below": 1
+  },
+  "SelfTrap": {
+    "Enabled": false,
+    "Delay": 30,
+    "NoGlitchBlocks": false,
+    "Helping": 3,
+    "Auto": true,
+    "Distance": 2.0,
+    "Prediction": 4
+  },
+  "Speed": {
+    "Enabled": false
+  },
+  "Speedmine": {
+    "Enabled": true,
+    "Fast": true,
+    "Switch": true,
+    "NoGlitchBlocks": false,
+    "Swing": false,
+    "AddTick": false
+  },
+  "Sprint": {
+    "Enabled": true
+  },
+  "Step": {
+    "Enabled": false,
+    "Hold": true
+  },
+  "Stop": {
+    "Enabled": false,
+    "Hold": false
+  },
+  "Strafe": {
+    "Enabled": false
+  },
+  "Suicide": {
+    "Enabled": false,
+    "Mode": "All",
+    "MinDamage": 6.0,
+    "PlaceDelay": 45,
+    "BreakDelay": 25,
+    "MultiThreading": false,
+    "ReplaceTime": 25,
+    "ReCalcTime": 0,
+    "MaxDeathTime": 40,
+    "Balance": 2.0,
+    "MinFactor": 2.0,
+    "Terrain": false,
+    "Obsidian": 1,
+    "MinObsidianDamage": 10.0,
+    "Faceplace": 10.0,
+    "Armor": 7.5,
+    "FacePlaceWhenUnsafe": false,
+    "FastWhenUnsafe": false,
+    "PlacePrediction": 3,
+    "BreakPrediction": 0,
+    "PacketRotations": "None",
+    "GameLoop": false,
+    "GameLoopDelay": -1,
+    "Poll-BreakDelay": 100,
+    "NoGlitchBlocks": false
+  },
+  "Surround": {
+    "Enabled": true,
+    "Delay": 25,
+    "NoGlitchBlocks": true,
+    "PacketRotations": true,
+    "Helping": 10,
+    "Disable": true,
+    "Swap": 500,
+    "Center": true
+  },
+  "Swing": {
+    "Enabled": false,
+    "Mode": "Override"
+  },
+  "Timer": {
+    "Enabled": false,
+    "Factor": 4.0,
+    "Lag": 1000
+  },
+  "Velocity": {
+    "Enabled": true,
+    "Grim-Position": "Last",
+    "Lag": true,
+    "Blocks": true,
+    "Entities": true
+  },
+  "XCarry": {
+    "Enabled": true,
+    "Move": true,
+    "Carried": false,
+    "AllowSwapWhileDragging": true
+  }
+}
